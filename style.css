@@ -14,7 +14,7 @@ body{
 /* comic panels */
 .panel{
     display: block;
-    width: 50%;
+    width: 60%;
     margin: 0px auto;
     margin-bottom: 50px;
     border-radius: 20px;
@@ -45,8 +45,8 @@ body{
     width: fit-content;
     padding: 20px;
     border: 5px solid #000;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 .credit {
 }
