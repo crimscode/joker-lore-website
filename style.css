@@ -13,27 +13,31 @@ body{
 
 /* comic panels */
 .panel{
-    display: block;
-    width: 60%;
+    width: 95%;
     margin: 0px auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     border-radius: 20px;
     border: 5px solid #000;
 }
 
 /* spans */
 .joker {
+    color: red;
+    font-style: italic;
 }
 .crims {
+    color: rgb(194, 34, 34);
+    font-style: italic;
 }
 
 /* ^^^ GENERAL ^^^ */
 
 .website-logo{
+    position: absolute;
+    right: 110px;
     border-radius: 25px;
     padding-top: 20px;
     background-color: #fff;
-    margin-top: -160px;
 }
 
 /* header, credit */
@@ -42,13 +46,15 @@ body{
     top: 50px;
     background-color: rgb(207, 181, 64);
     border-radius: 20px;
-    width: fit-content;
+    width: 300px;
     padding: 20px;
     border: 5px solid #000;
     margin-top: 25px;
     margin-left: 25px;
+    font-size: 13px;
 }
 .credit {
+    font-size: 12px;
 }
 
 /* comic panels */
@@ -64,8 +70,15 @@ body{
     font-size: 100px;
     font-family: 'Koulen', cursive;
     margin-top: 100px;
+    text-align: right;
+    margin-right: 25px;
 }
 .comic-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -23%;
+    width: 50%;
 }
 .ch1_panel {
 }
