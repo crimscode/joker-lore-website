@@ -13,7 +13,7 @@ body{
 
 /* comic panels */
 .panel{
-    width: 95%;
+    width: 100%;
     margin: 0px auto;
     margin-bottom: 30px;
     border-radius: 20px;
@@ -40,7 +40,35 @@ body{
     background-color: #fff;
 }
 
+
+/* comic panels */
+#comics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chapter-header{
+    font-size: 100px;
+    font-family: 'Koulen', cursive;
+    margin-top: 35px;
+    text-align: right;
+    margin-right: 25px;
+}
+.comic-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -23%;
+    width: 50%;
+}
+
+
 /* header, credit */
+.real-header{
+    margin-top: 100px;
+}
+
 .header-wrapper {
     position: sticky;
     top: 50px;
@@ -55,30 +83,4 @@ body{
 }
 .credit {
     font-size: 12px;
-}
-
-/* comic panels */
-#comics {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.chapter-header-wrapper {
-}
-.chapter-header{
-    font-size: 100px;
-    font-family: 'Koulen', cursive;
-    margin-top: 100px;
-    text-align: right;
-    margin-right: 25px;
-}
-.comic-wrapper {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    right: -23%;
-    width: 50%;
-}
-.ch1_panel {
 }
