@@ -13,7 +13,8 @@ body{
 
 /* comic panels */
 .panel{
-    width: 100%;
+    width: 85%;
+    height: 800px;
     margin: 0px auto;
     margin-bottom: 30px;
     border-radius: 20px;
@@ -34,7 +35,7 @@ body{
 
 .website-logo{
     position: absolute;
-    right: 110px;
+    right: 250px;
     border-radius: 25px;
     padding-top: 20px;
     background-color: #fff;
@@ -53,7 +54,7 @@ body{
     font-family: 'Koulen', cursive;
     margin-top: 35px;
     text-align: right;
-    margin-right: 25px;
+    margin-right: 200px;
 }
 .comic-wrapper {
     display: flex;
