@@ -95,7 +95,7 @@ body{
     margin-left: 20px;
 }
 
-.chapters-list li a{
+.chapters-list a{
     font-weight: 500;
     font-size: 17px;
     text-decoration: underline;
