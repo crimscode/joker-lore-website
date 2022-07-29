@@ -5,6 +5,9 @@
     padding: 0px;
     font-family: cursive;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(226, 202, 94);
 }
@@ -14,7 +17,7 @@ body{
 /* comic panels */
 .panel{
     width: 85%;
-    height: 800px;
+    height: 750px;
     margin: 0px auto;
     margin-bottom: 30px;
     border-radius: 20px;
@@ -84,4 +87,18 @@ body{
 }
 .credit {
     font-size: 12px;
+}
+
+/* chapters list/navigation */
+
+.chapters-list{
+    margin-left: 20px;
+}
+
+.chapters-list li a{
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: underline;
+    color: rgb(194, 34, 34);
+    font-style: italic;
 }
